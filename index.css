@@ -4,4 +4,15 @@ body{
   padding: 2rem;
   margin: 2rem ;
 }
+ol{
+  background-color: cyan;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+li{
+  background-color: white;
+font-size: 1rem;
+  
+}
   
