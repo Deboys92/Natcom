@@ -11,8 +11,66 @@ ol{
   margin: 1rem;
 }
 li{
-  background-color: white;
+  background-color:none;
 font-size: 1rem;
   
 }
-  
+footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+strong{
+  color: red;
+  font-size: 1.5rem;
+  border:none;
+  border-radius: 5px;
+}
+  .one{
+    display: inline ;
+
+  }
+
+  .img{
+    display: flex;
+    background-color: lime;
+    padding: 1rem;
+    flex-direction: row;
+    gap: 2rem ;
+    width: 100%;
+    align-items:center ;
+    justify-content: space-between;
+   
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+
+  }
+  .button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center ;
+    background-color:red;
+    padding: 0.5rem;
+    width: 100%;
+    flex-direction: row;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
