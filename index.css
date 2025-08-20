@@ -1,17 +1,90 @@
 body{
-  background-color: orange;
+ 
   color: white;
   padding: 2rem;
   margin: 2rem ;
+  width: 100% ;
+  flex-direction: column;
+  juustify-content: center;
+  align-items: center;
+  
 }
   
-.form{
-  background-color: yellowgreen;
+.navbar{
+  background-color:green;
+  margin: 1 rem 1 rem 1rem 0;
+  display: flex;
+  flex: 0.7;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  top: 0%;
+  position: sticky;
+
+  
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+
+
+}
+
+.header{
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; 
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header h1{
+  color: black;
+}
+
+.cards{
+  background-color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  gap: 0.2rem;
-  padding: 1rem;
+  gap: 1rem;
+  
+}
+
+.card{
+ background-color: gray;
+ padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+img{
+  display: flex;
+  /* flex: 0.3; */
+  width: 80p;
+  border-radius: 15px;
+}
+.nav-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+
+  
+  @media screen and (max-width: 450px) {
+    .nav-links{
+      margin-left: 0;
+      flex:0.95;
+    
+  }
   
 }
