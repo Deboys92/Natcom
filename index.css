@@ -5,3 +5,13 @@ body{
   margin: 2rem ;
 }
   
+.form{
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.2rem;
+  padding: 1rem;
+  
+}

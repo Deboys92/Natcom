@@ -1,13 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <h1>hello this  is My webb </h1>
-    <button>Add Me</button>
+    <h1>liste of students</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>student_Id</th>
+                <th>student_Name</th>
+                <th>student_age</th>
+                <th>student_idMarks</th>
+                <th>student_Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>20</td>
+                <td>85</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>22</td>
+                <td>90</td>
+                <td>Femal</td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td>Emily Johnson</td>
+                <td colspan="2">19</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+
+                <td>Michael Brown</td>
+                <td>21</td>
+                <td>92</td>
+                <td>Male</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <form class="form">
+
+        <label for="">Enter your Name </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name"required>
+        <label for="">Enter your email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"required>
+        <label for="">Enter your password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        <label for="">Select your country</label>
+        <select name="select your country " id="">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <textarea rows="20" cols="10"></textarea>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"/>
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+
+            <input type="color" name="color" id="color" value="#ff0000">
+        </div>
+
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+
+    </form>
 </body>
+
 </html>
